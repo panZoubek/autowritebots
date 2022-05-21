@@ -4,15 +4,11 @@ f=open("lyrics.txt","r") #file named 'lyrics.txt' need to be in the same folder 
 count = 0
 
 
-print("How many times do you want to reapeat?:")
-ttp = input()
+ttp = input("How many times do you want to reapeat?:")
 trr = int(ttp)
 
-time.sleep(1)
 
-
-print("How many seconds do I have to wait?")
-tmslp = input()
+tmslp = input("How many seconds do I have to wait?:")
 tmslp = int(tmslp)
 
 
